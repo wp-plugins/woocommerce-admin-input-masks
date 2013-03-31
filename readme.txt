@@ -13,7 +13,7 @@ It masks some woocommerce inputs on the admin side. For the moment, only the pri
 
 Woocommerce simply doesn´t use any type of masks on the admin side. So you can mistype your price by accident, for example typing a letter instead of a number, or using a wrong decimal separator.
 
-This plugin creates masks using the own woocommerce configurations, when it is possible
+Whenever it's possible, this plugin creates masks using native Woocommerce configurations that are already in use on the front end, so they can work on the admin side too.
 
 == Installation ==
 
