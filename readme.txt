@@ -26,6 +26,11 @@ Whenever it's possible, this plugin creates masks using native Woocommerce confi
 
 Yes
 
+== Screenshots ==
+
+1. Type comfortably on the admin side using masks in your favor
+2. Whenever it's possible, this plugin creates masks using native Woocommerce configurations that are already in use on the front end, so they can work on the admin side too.
+
 == Changelog ==
 
 = 1.0 =
