@@ -4,7 +4,7 @@ Plugin Name: Woocommerce admin input masks
 Plugin URI: http://homolog.origgami.com.br/wordpress/plugins/woocommerce-admin-inputmasks
 Description: It masks some woocommerce inputs on the admin side. For the moment, only the price
 Version: 1.0
-Author: Pablo Pacheco Karzin
+Author: Origgami
 Author URI: http://www.origgami.com.br
 License: GPL2
 */
