@@ -13,7 +13,15 @@ It masks some woocommerce inputs on the admin side. For the moment, only the pri
 
 Woocommerce simply doesn't use any type of mask on the admin side. So while you are registering your products, you can mistype your price by accident, for example typing a letter instead of a number, or using a wrong decimal separator.
 
-Whenever it's possible, this plugin creates masks using native Woocommerce configurations that are already in use on the front end, so they can work on the admin side too.
+Whenever it's possible, this plugin creates masks using native Woocommerce configurations that are already in use on the front end, so it can work on the admin side too.
+
+[WooCommerce](http://wordpress.org/extend/plugins/woocommerce/) must be installed and active.
+
+### Description in portuguese: ###
+
+O plugin do Woocommerce simplesmente não usa nenhuma máscara para os campos que estão no admin. Então as vezes sem querer, você pode acabar digitando o preço de um produto errado, colocando uma letra no lugar de um número ou usando uma vírgula no lugar de um ponto.
+
+Sempre que possível, esse plugin cria máscaras usando as próprias configurações do Woocommerce que já funcionam no front end, de maneira que funcionem também no admin
 
 #### Credits: ####
 [Autonumeric jQuery plugin](http://www.decorplanit.com/plugin/)
@@ -25,9 +33,9 @@ Whenever it's possible, this plugin creates masks using native Woocommerce confi
 
 == Frequently Asked Questions ==
 
-= Does it work only for prices? =
+= What type of inputs are supported? =
 
-Yes
+It works only for prices, for now
 
 == Screenshots ==
 
