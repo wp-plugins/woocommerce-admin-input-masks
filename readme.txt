@@ -19,9 +19,9 @@ Whenever it's possible, this plugin creates masks using native Woocommerce confi
 
 ### Description in portuguese: ###
 
-O plugin do Woocommerce simplesmente não usa nenhuma máscara para os campos que estão no admin. Então as vezes sem querer, você pode acabar digitando o preço de um produto errado, colocando uma letra no lugar de um número ou usando uma vírgula no lugar de um ponto.
+O plugin do Woocommerce simplesmente não usa nenhuma máscara para os campos que estao no admin. Então as vezes sem querer, você pode acabar digitando o preco de um produto errado, colocando uma letra no lugar de um numero ou usando uma virgula no lugar de um ponto.
 
-Sempre que possível, esse plugin cria máscaras usando as próprias configurações do Woocommerce que já funcionam no front end, de maneira que funcionem também no admin
+Sempre que possivel, esse plugin cria máscaras usando as proprias configuracoes do Woocommerce que ja funcionam no front end, de maneira que funcionem tambem no admin
 
 #### Credits: ####
 [Autonumeric jQuery plugin](http://www.decorplanit.com/plugin/)
