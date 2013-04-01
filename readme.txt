@@ -15,6 +15,9 @@ Woocommerce simply doesn't use any type of mask on the admin side. So while you 
 
 Whenever it's possible, this plugin creates masks using native Woocommerce configurations that are already in use on the front end, so they can work on the admin side too.
 
+#### Credits: ####
+[Autonumeric jQuery plugin](http://www.decorplanit.com/plugin/)
+
 == Installation ==
 
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
