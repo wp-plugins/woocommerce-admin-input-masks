@@ -34,4 +34,4 @@ Yes
 == Changelog ==
 
 = 1.0 =
-* Plugin´s creation. 
+* Plugin's creation. 
