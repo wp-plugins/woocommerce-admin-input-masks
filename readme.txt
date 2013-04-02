@@ -3,7 +3,7 @@ Contributors: karzin
 Tags: woocommerce, mask, input, format, admin
 Requires at least: 3.0.1
 Tested up to: 3.5
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,9 @@ It works only for prices, for now
 2. Whenever it's possible, this plugin creates masks using native Woocommerce configurations that are already in use on the front end, so they can work on the admin side too.
 
 == Changelog ==
+
+= 1.1.1 =
+* Added support to simple products
 
 = 1.1 =
 * Added support to number of decimals
