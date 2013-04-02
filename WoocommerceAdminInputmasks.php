@@ -47,6 +47,9 @@ class WoocommerceAdminInputmasks {
             
             wp_register_script( 'autonumeric_js', plugins_url('js/autonumeric.js', __FILE__),array('jquery') );
             wp_enqueue_script( 'autonumeric_js' );
+			
+			wp_register_script( 'priceformat_js', plugins_url('js/jquery.price_format.1.7.min.js', __FILE__),array('jquery') );
+            wp_enqueue_script( 'priceformat_js' );
 
             wp_register_script( 'livequery_js', plugins_url('js/livequery.js', __FILE__),array('jquery') );
             wp_enqueue_script( 'livequery_js' );
@@ -56,7 +59,8 @@ class WoocommerceAdminInputmasks {
             
             wp_localize_script('woocommerce-admin-inputmasks_js', 'admin_inputmasks_vars', array(
                     'woocommerce_price_thousand_sep' => get_option('woocommerce_price_thousand_sep'),
-                    'woocommerce_price_decimal_sep' => get_option('woocommerce_price_decimal_sep')
+                    'woocommerce_price_decimal_sep' => get_option('woocommerce_price_decimal_sep'),
+					'woocommerce_price_num_decimals' => get_option('woocommerce_price_num_decimals')
                 )
             );
         }
