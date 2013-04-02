@@ -5,11 +5,13 @@ jQuery(document).ready(function(e){
 function getPriceInputs(woocommerceVariationBoxes){
     var inputs=[];
     for(var i=0;i<woocommerceVariationBoxes;i++){
-		inputs.push(jQuery('input[name="variable_regular_price['+i+']"]'));
+        inputs.push(jQuery('input[name="variable_regular_price['+i+']"]'));
         inputs.push(jQuery('input[name="variable_price['+i+']"]'));
         inputs.push(jQuery('input[name="variable_sale_price['+i+']"]'));
     }
-    return inputs
+    inputs.push(jQuery('input[name="_regular_price"]'));
+    inputs.push(jQuery('input[name="_sale_price"]'));
+    return inputs;
 }
 
 function cloneInputs(inputs){
@@ -91,15 +93,15 @@ function configMasks(editedPriceInputs){
                 aSep:admin_inputmasks_vars.woocommerce_price_thousand_sep,
                 aDec:admin_inputmasks_vars.woocommerce_price_decimal_sep,
                 aSign:'',
-				mDec:admin_inputmasks_vars.woocommerce_price_num_decimals,
+                mDec:admin_inputmasks_vars.woocommerce_price_num_decimals,
                 pSign:''
-            }); 
+            });
 
             cloned.on('keyup',function(){
                 var bound = jQuery(this).attr('bound');
-                var originalPriceInput = jQuery('.priceInput[bound="'+bound+'"]').not(jQuery(this))           
-                onClonedKeyup(jQuery(this),originalPriceInput);                        
-            })        
+                var originalPriceInput = jQuery('.priceInput[bound="'+bound+'"]').not(jQuery(this));
+                onClonedKeyup(jQuery(this),originalPriceInput);
+            });
         }
     }
 }
@@ -107,9 +109,9 @@ function configMasks(editedPriceInputs){
 /**
  * Gerencia as mascaras dos inputs (preco, datas, etc...)
  */
-function handlePriceMasks(){   
+function handlePriceMasks(){
     
-    function realHandlePriceMasks(){
+    function realHandlePriceMasks(){        
         var woocommerceVariation=jQuery(".woocommerce_variation.wc-metabox");        
         var originalPriceinputs=getPriceInputs(woocommerceVariation.length);
         var editedPriceInputs = cloneInputs(originalPriceinputs);
@@ -120,5 +122,6 @@ function handlePriceMasks(){
     jQuery(".woocommerce_variation.wc-metabox").livequery(function(){
        realHandlePriceMasks();
     });
+    realHandlePriceMasks();
     
 }
