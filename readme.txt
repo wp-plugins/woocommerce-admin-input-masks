@@ -37,10 +37,10 @@ Sempre que poss&iacute;vel, esse plugin cria m&aacute;scaras usando as pr&oacute
 
 It works only for prices, for now
 
-= Why does my price input gets red some times? =
+= Why does my price input get red some times? =
 
 Woocommerce only accepts numbers and dots as characters for price inputs, even if you have set you want commas or other characters. And that is how woocommerce says you typed wrong. Painting it red.
-But don´t worry about it. This plugin accepts these characters the way you want. I'll try to override this Woocommerce's feature someday
+But don't worry about it. This plugin accepts these characters the way you want. I'll try to override this Woocommerce's feature someday
 
 == Screenshots ==
 
