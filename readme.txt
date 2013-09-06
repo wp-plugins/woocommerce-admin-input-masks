@@ -18,7 +18,7 @@ Whenever it's possible, this plugin creates masks using native Woocommerce confi
 
 [WooCommerce](http://wordpress.org/extend/plugins/woocommerce/) must be installed and active.
 
-Please [help me and my company with some bucks](http://wordpress.org/extend/plugins/woocommerce/) and i'll gladly keep developing this plugin
+Please [help me and my company with some bucks](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U3MFXJRKLYDMC) and i'll gladly keep developing this plugin
 
 ### Description in portuguese: ###
 
