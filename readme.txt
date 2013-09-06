@@ -3,6 +3,7 @@ Contributors: karzin
 Tags: woocommerce, mask, input, format, admin
 Requires at least: 3.0.1
 Tested up to: 3.5
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U3MFXJRKLYDMC
 Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -16,6 +17,8 @@ Woocommerce simply doesn't use any type of mask on the admin side. So while you 
 Whenever it's possible, this plugin creates masks using native Woocommerce configurations that are already in use on the front end, so it can work on the admin side too.
 
 [WooCommerce](http://wordpress.org/extend/plugins/woocommerce/) must be installed and active.
+
+Please [help me and my company with some bucks](http://wordpress.org/extend/plugins/woocommerce/) and i'll gladly keep developing this plugin
 
 ### Description in portuguese: ###
 
